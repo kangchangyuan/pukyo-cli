@@ -1,12 +1,12 @@
 {
   "name": "@pukyo-cli/core",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "pukyo-cli core",
   "author": "kangchangyuan <kangchangyuan@outlook.com>",
   "homepage": "",
   "license": "ISC",
-  "bin":{
-    "pukyo-cli":"bin/index.js"
+  "bin": {
+    "pukyo-cli": "bin/index.js"
   },
   "main": "lib/core.js",
   "directories": {
