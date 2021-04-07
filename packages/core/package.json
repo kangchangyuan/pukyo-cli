@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "pukyo-cli core",
   "author": "kangchangyuan <kangchangyuan@outlook.com>",
   "homepage": "",
@@ -15,8 +15,5 @@
   ],
   "scripts": {
     "test": "echo \"Error: run tests from core\""
-  },
-  "dependencies": {
-   
   }
 }
