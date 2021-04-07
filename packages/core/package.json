@@ -1,0 +1,22 @@
+{
+  "name": "@pukyo-cli/core",
+  "version": "1.0.0",
+  "description": "pukyo-cli core",
+  "author": "kangchangyuan <kangchangyuan@outlook.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: run tests from core\""
+  },
+  "dependencies": {
+   
+  }
+}
