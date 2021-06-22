@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/core",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "pukyo-cli core",
   "author": "kangchangyuan <kangchangyuan@outlook.com>",
   "homepage": "",
@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@pukyo-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@pukyo-cli/log": "^1.0.4",
+    "@pukyo-cli/log": "^1.0.5",
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
     "minimist": "^1.2.5",
