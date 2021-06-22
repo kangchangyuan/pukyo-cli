@@ -1,0 +1,34 @@
+{
+  "name": "get-npm-info",
+  "version": "1.0.3",
+  "description": "pukyo-cli get-npm-info",
+  "keywords": [
+    "get-npm-info"
+  ],
+  "author": "kangchangyuan <kangchangyuan@outlook.com>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@e.coding.net:pukyo/kangchuangyuan/pukyo-cli.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "semver": "^7.3.5",
+    "url-join": "^4.0.1"
+  }
+}
