@@ -1,5 +1,5 @@
 {
-  "name": "get-npm-info",
+  "name": "@pukyo-cli/get-npm-info",
   "version": "1.0.4",
   "description": "pukyo-cli get-npm-info",
   "keywords": [
@@ -30,5 +30,6 @@
     "axios": "^0.21.1",
     "semver": "^7.3.5",
     "url-join": "^4.0.1"
-  }
+  },
+  "gitHead": "25e23a316f91649f58edf914e5f63efea57ffcc1"
 }

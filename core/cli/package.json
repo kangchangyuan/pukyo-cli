@@ -21,7 +21,7 @@
   },
   "dependencies": {
     "@pukyo-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@pukyo-cli/log": "file:../../utils/log",
+    "@pukyo-cli/log": "^1.0.4",
     "colors": "^1.4.0",
     "dotenv": "^10.0.0",
     "minimist": "^1.2.5",
@@ -35,5 +35,6 @@
   },
   "devDependencies": {
     "import-local": "^3.0.2"
-  }
+  },
+  "gitHead": "25e23a316f91649f58edf914e5f63efea57ffcc1"
 }
