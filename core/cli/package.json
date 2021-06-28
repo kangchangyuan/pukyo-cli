@@ -21,12 +21,13 @@
   },
   "dependencies": {
     "@pukyo-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@pukyo-cli/log": "^1.0.5",
+    "@pukyo-cli/log": "file:../../utils/log",
+    "@pukyo-cli/init": "file:../../commands/init",
     "colors": "^1.4.0",
+    "commander": "^8.0.0",
     "dotenv": "^10.0.0",
-    "minimist": "^1.2.5",
     "path-exists": "^4.0.0",
-    "root-check": "^2.0.0",
+    "root-check": "^1.0.0",
     "semver": "^7.3.5",
     "user-home": "^3.0.0"
   },
