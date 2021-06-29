@@ -1,12 +1,12 @@
 {
-  "name": "@pukyo-cli/exec",
+  "name": "@pukyo-cli/format-path",
   "version": "1.0.0",
-  "description": "@pukyo-cli exec",
+  "description": "@pukyo-cli  format-path",
   "keywords": [
-    "exec"
+    "format-path"
   ],
   "author": "kangchangyuan <kangchangyuan@outlook.com>",
-  "homepage": "",
+  "homepage": "https://github.com/kangchangyuan/pukyo-cli#readme",
   "license": "ISC",
   "main": "lib/index.js",
   "directories": {
@@ -21,13 +21,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@e.coding.net:pukyo/kangchuangyuan/pukyo-cli.git"
+    "url": "git+https://github.com/kangchangyuan/pukyo-cli.git"
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
-  "dependencies": {
-    "@pukyo-cli/package": "file:../../models/package"
-   
-  }
+  "bugs": {
+    "url": "https://github.com/kangchangyuan/pukyo-cli/issues"
+  },
+  "dependencies": {}
 }
