@@ -14,6 +14,7 @@ const pathExists = require("path-exists").sync;
 
 const log = require("@pukyo-cli/log");
 const init = require('@pukyo-cli/init');
+const exec = require('@pukyo-cli/exec');
 const pkg = require("../package.json");
 const constant = require("./const");
 
@@ -45,7 +46,7 @@ function registerCommand() {
   program
     .command('init [projectName]')
     .option('-f, --force', '是否强制初始化项目')
-    .action(init)
+    .action(exec)
   // 开启debug模式
   program.on("option:debug", function () {
     if (program.opts().debug) {
@@ -57,7 +58,6 @@ function registerCommand() {
   });
   // 写入本地加载文件路径
   program.on("option:targetPath", function () {
-    console.log(program.opts());
     process.env.CLI_TARGET_PATH = program.opts().targetPath
   });
   // 监听未知命令

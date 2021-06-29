@@ -3,7 +3,7 @@
 class Package {
     // TODO
     constructor(){
-
+        console.log('调用了Package类');
     }
 }
 
