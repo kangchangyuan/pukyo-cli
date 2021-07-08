@@ -1,7 +1,9 @@
 'use strict';
 const  path = require('path')
 const pkgDir = require('pkg-dir').sync
+const npmInstall =  require('npminstall');
 const {isObject} = require('@pukyo-cli/utils');
+const {getDefaultRepo} = require('@pukyo-cli/get-npm-info');
 const formatPath = require('@pukyo-cli/format-path')
 class Package {
     constructor(options){
@@ -20,7 +22,14 @@ class Package {
 
     }
     install(){
-
+        npmInstall({
+            root:this.targetPath,
+            storeDir:this.storeDir,
+            registry:getDefaultRepo(),
+            pkgs:[
+                { name: this.packageName, version: this.packageVersion },
+            ]
+        })
     }
     update(){
 

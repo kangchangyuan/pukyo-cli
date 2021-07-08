@@ -29,6 +29,8 @@
   "dependencies": {
     "@pukyo-cli/format-path": "file:../../utils/format-path",
     "@pukyo-cli/utils": "file:../../utils/utils",
+    "@pukyo-cli/get-npm-info": "file:../../utils/get-npm-info",
+    "npminstall": "^4.11.0",
     "pkg-dir": "^5.0.0"
   }
 }
