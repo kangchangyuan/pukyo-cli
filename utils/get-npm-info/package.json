@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/get-npm-info",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "pukyo-cli get-npm-info",
   "keywords": [
     "get-npm-info"

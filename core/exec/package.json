@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/exec",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "@pukyo-cli exec",
   "keywords": [
     "exec"
@@ -28,6 +28,5 @@
   },
   "dependencies": {
     "@pukyo-cli/package": "file:../../models/package"
-   
   }
 }

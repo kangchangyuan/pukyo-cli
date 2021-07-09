@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/package",
-  "version": "1.0.0",
+  "version": "1.0.6",
   "description": "@pukyo-cli package",
   "keywords": [
     "package"
