@@ -6,7 +6,7 @@ const SETTINGS = {
     init:'@pukyo-cli/init'
 }
 const CACHE_PATH = 'dependencies'
-function exec() {
+async function exec() {
     // TODO
     let pkg=null;
     let targetPath = process.env.CLI_TARGET_PATH
@@ -25,11 +25,12 @@ function exec() {
             packageVersion,
             storePath
         })
-        if(pkg.exists()){
-            // 更新package
+        if(await pkg.exists()){
+             // 更新package
+           await pkg.update()
         }else{
             // 安装package
-            pkg.install()
+           await pkg.install()
         }
     }else{
         pkg = new Package({
