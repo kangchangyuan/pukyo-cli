@@ -8,7 +8,6 @@ module.exports = function formatPath(p) {
            p= p.replace(/\\/g,'/') 
         }
     }
-    console.log(p);
     return p
 
 }

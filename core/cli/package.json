@@ -22,7 +22,6 @@
   "dependencies": {
     "@pukyo-cli/exec": "file:../exec",
     "@pukyo-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@pukyo-cli/init": "file:../../commands/init",
     "@pukyo-cli/log": "file:../../utils/log",
     "colors": "^1.4.0",
     "commander": "^8.0.0",

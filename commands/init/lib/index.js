@@ -1,7 +1,19 @@
 'use strict';
+const Command = require('@pukyo-cli/command')
+class InitCommand extends Command {
+    init(){
+        this.packageName = this._argv[0] || ''
+        console.log(this._cmd.opts().force);
+        console.log(this.packageName);
+    }
+    exec(){
+        
+    }
+}
 
-function init(projectName,cmdObj) {
-    console.log('jj',projectName,cmdObj,process.env.CLI_TARGET_PATH);
+function init(argv) {
+    return new InitCommand(argv)
 }
 
 module.exports = init;
+module.exports.InitCommand = InitCommand

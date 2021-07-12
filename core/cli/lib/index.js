@@ -13,7 +13,7 @@ const userHome = require("user-home");
 const pathExists = require("path-exists").sync;
 
 const log = require("@pukyo-cli/log");
-const init = require('@pukyo-cli/init');
+
 const exec = require('@pukyo-cli/exec');
 const pkg = require("../package.json");
 const constant = require("./const");
@@ -29,7 +29,6 @@ async function core() {
 }
 // 注册前准备工作
 async function prepase() {
-    checkNodeVersion();
     checkRoot();
     checkUserHome();
     checkEnv();
@@ -117,13 +116,7 @@ function checkUserHome() {
   }
 }
 
-function checkNodeVersion() {
-  const currentNodeVersion = process.version;
-  const lowestVersion = constant.LOWEST_NODE_VERSION;
-  if (!semver.gte(currentNodeVersion, lowestVersion)) {
-    throw new Error(colors.red(`请安装大于等于v${lowestVersion}的node.js`));
-  }
-}
+
 
 function checkRoot() {
   const rootCheck = require("root-check");
