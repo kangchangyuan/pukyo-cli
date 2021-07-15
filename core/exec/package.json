@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/exec",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "@pukyo-cli exec",
   "keywords": [
     "exec"
@@ -27,7 +27,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pukyo-cli/package": "^1.0.7"
+    "@pukyo-cli/package": "^1.0.8"
   },
   "gitHead": "79da12ad32bb74110305814945ffa99151bbc208"
 }

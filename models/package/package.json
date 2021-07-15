@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/package",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "@pukyo-cli package",
   "keywords": [
     "package"
@@ -27,7 +27,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pukyo-cli/format-path": "^1.0.7",
+    "@pukyo-cli/format-path": "^1.0.8",
     "@pukyo-cli/get-npm-info": "^1.0.6",
     "@pukyo-cli/utils": "^1.0.6",
     "npminstall": "^4.11.0",

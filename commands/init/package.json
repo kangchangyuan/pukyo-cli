@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/init",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "@pukyo-cli init",
   "keywords": [
     "init"
@@ -24,7 +24,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pukyo-cli/command": "^1.0.7",
+    "@pukyo-cli/command": "^1.0.8",
     "fs-extra": "^10.0.0",
     "inquirer": "^8.1.2",
     "semver": "^7.3.5"
