@@ -55,20 +55,23 @@ async function exec() {
                 }
             })
             argv[argv.length-1] = o
-            const code = `require(${rootFile}).call(null,${JSON.stringify(argv)})`
-            // require(rootFile).call(null,argv)
-            const child = spawn('node',['-e',code],{
-                cwd:process.cwd(),
-                stdio:'inherit'
-            })
-            child.on('error',e=>{
-                console.log(e.message)
-                process.exit(1)
-            })
-            child.on('exit',e=>{
-                console.log('执行命令成功:'+e)
-                process.exit(e)
-            })
+            
+            require(rootFile).call(null,argv)
+            // const code = `require( '${ rootFile }').call( null, ${ JSON.stringify( argv ) } ) `;
+            // console.log(code);
+            // // const win32 = process.platform ==='win32'
+            // const child = spawn('node',['-e',code],{
+            //     cwd:process.cwd(),
+            //     stdio:'inherit'
+            // })
+            // child.on('error',e=>{
+            //     console.log(e.message)
+            //     process.exit(1)
+            // })
+            // child.on('exit',e=>{
+            //     console.log('执行命令成功:'+e)
+            //     process.exit(e)
+            // })
         } catch (error) {
             console.log(error.message);
         }
@@ -80,5 +83,6 @@ function spawn(command,args,options) {
     const win32 = process.platform ==='win32'
     const cmd = win32?'cmd':command
     const cmdArgs = win32?['/c'].concat(command,args):args
+    // console.log(win32,cmd,cmdArgs);
     return cp.spawn(cmd,cmdArgs,options={})
 }
