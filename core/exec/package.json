@@ -27,6 +27,7 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pukyo-cli/package": "file:../../models/package"
-  }
+    "@pukyo-cli/package": "^1.0.7"
+  },
+  "gitHead": "79da12ad32bb74110305814945ffa99151bbc208"
 }

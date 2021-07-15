@@ -20,9 +20,9 @@
     "test": "echo \"Error: run tests from core\""
   },
   "dependencies": {
-    "@pukyo-cli/exec": "file:../exec",
-    "@pukyo-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@pukyo-cli/log": "file:../../utils/log",
+    "@pukyo-cli/exec": "^1.0.7",
+    "@pukyo-cli/get-npm-info": "^1.0.6",
+    "@pukyo-cli/log": "^1.0.5",
     "colors": "^1.4.0",
     "commander": "^8.0.0",
     "dotenv": "^10.0.0",
@@ -37,5 +37,5 @@
   "devDependencies": {
     "import-local": "^3.0.2"
   },
-  "gitHead": "25e23a316f91649f58edf914e5f63efea57ffcc1"
+  "gitHead": "79da12ad32bb74110305814945ffa99151bbc208"
 }

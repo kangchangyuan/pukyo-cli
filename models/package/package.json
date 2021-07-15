@@ -27,11 +27,12 @@
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "dependencies": {
-    "@pukyo-cli/format-path": "file:../../utils/format-path",
-    "@pukyo-cli/get-npm-info": "file:../../utils/get-npm-info",
-    "@pukyo-cli/utils": "file:../../utils/utils",
+    "@pukyo-cli/format-path": "^1.0.7",
+    "@pukyo-cli/get-npm-info": "^1.0.6",
+    "@pukyo-cli/utils": "^1.0.6",
     "npminstall": "^4.11.0",
     "path-exists": "^4.0.0",
     "pkg-dir": "^5.0.0"
-  }
+  },
+  "gitHead": "79da12ad32bb74110305814945ffa99151bbc208"
 }
