@@ -1,6 +1,6 @@
 {
   "name": "@pukyo-cli/exec",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "@pukyo-cli exec",
   "keywords": [
     "exec"
